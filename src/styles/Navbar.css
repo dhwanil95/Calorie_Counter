@@ -1,0 +1,45 @@
+.navbar-custom {
+  border-bottom: 1px solid var(--border-color, #e5e7eb);
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 20;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-wrapper {
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 8px 16px;
+}
+
+.navbar-logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  height: 24px;
+  margin-right: 10px;
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-color, #000000);
+}
+
+/* Dark styles */
+.navbar-custom-dark {
+  background-color: #1a1a1a;
+  border-color: #4b5563;
+}
+
+.navbar-title-dark {
+  color: #ffffff;
+}

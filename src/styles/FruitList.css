@@ -1,0 +1,107 @@
+.fruit-list-container {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 0.375rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.group-by-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #4a5568;
+}
+
+.group-by-select {
+  padding: 0.5rem;
+  border: 1px solid #cbd5e0;
+  border-radius: 0.375rem;
+  width: 12rem;
+}
+
+.fruit-table {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.table-header {
+  padding: 0.5rem;
+  text-align: left;
+  font-weight: bold;
+  color: #2d3748;
+}
+
+.table-cell {
+  padding: 0.5rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.group-header {
+  padding: 0.5rem;
+  font-weight: bold;
+  background-color: #e2e8f0;
+  cursor: pointer;
+  text-align: center;
+}
+
+.group-buttons {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 0.375rem;
+}
+
+.btn-add {
+  background-color: #3b82f6;
+  color: #ffffff;
+}
+
+.btn-remove {
+  background-color: #ef4444;
+  color: #ffffff;
+}
+
+.btn-add-all {
+  background-color: #10b981;
+  color: #ffffff;
+}
+
+.btn-remove-all {
+  background-color: #ef4444;
+  color: #ffffff;
+}
+
+.btn-disabled {
+  background-color: #d1d5db;
+  color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.no-fruits-message {
+  text-align: center;
+  color: #a0aec0;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .group-buttons {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .group-by-select {
+    width: 100%;
+  }
+}
