@@ -1,8 +1,8 @@
-# Fruit Calorie Calculator
+# Calorie Counter
 
 ## Overview
 
-The Fruit Calorie Calculator is a React and TypeScript application designed to display a list of fruits fetched from the Fruityvice API. The application allows users to group fruits by different categories (None, Family, Order, Genus) and add them to a "Jar" while calculating the total calories.
+The Calorie Counter is a React and TypeScript application designed to display a list of fruits fetched from the Fruityvice API. The application allows users to group fruits by different categories (None, Family, Order, Genus) and add them to a "Jar" while calculating the total calories.
 
 ## Features
 
@@ -48,8 +48,8 @@ The application includes test cases to ensure that key functionalities work as e
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/dhwanil95/fruit-calorie-calculator.git
-    cd fruit-calorie-calculator
+    git clone https://github.com/dhwanil95/Calorie_Counter.git
+    cd Calorie_Counter
     ```
 
 2. **Install dependencies:**
